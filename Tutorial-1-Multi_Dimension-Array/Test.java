@@ -9,7 +9,11 @@ public class Test {
         final int COLS = 2;
         double myList[][] = new double[MAX_ROWS][COLS];
 
-        File f = new File("./t1.csv");
+        String filename = "./t1.csv";
+        if(args.length > 0){
+            filename = args[0];
+        }
+        File f = new File(filename);
         Scanner myScan = new Scanner(f);
         myScan.useDelimiter("[,\\s]+");
 
