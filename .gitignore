@@ -1,0 +1,6 @@
+#Ignore these files
+.DS_Store
+.env
+*.docx
+*.class
+Mission.java
