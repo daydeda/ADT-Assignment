@@ -8,10 +8,12 @@ Option 2. $> javac *.java
 ```
 
 ### How to run my program
-- $> java studentMain -n student_data_csv.csv
-- $> java studentMain -f student_data_csv.csv
-- $> java studentMain -l student_data_csv.csv
-- $> java studentMain -n -f -l student_data_csv.csv
+```
+1. $> java studentMain -n student_data_csv.csv
+   $> java studentMain -f student_data_csv.csv
+   $> java studentMain -l student_data_csv.csv
+2. $> java studentMain -n -f -l student_data_csv.csv
+```
 
 ## Examples of output
 ```
