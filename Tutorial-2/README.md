@@ -1,11 +1,20 @@
 # Tutorial 2
 ## Puri Sangnawakit 682115036
+
+### First CD or open your folder to prepare to run on your terminal
+- Using command "cd"
+![compile](./how-to-compile/01_CD-directory.gif)
+
+- Open folder via VSCode
+![compile](./how-to-compile/01-2_cd-open-folder.gif)
+
 ### How to compile my program
 ```
 Option 1. $> javac studentClass.java
           $> javac studentMain.java
 Option 2. $> javac *.java
 ```
+![compile](./how-to-compile/02_javac-class.gif)
 
 ### How to run my program
 ```
@@ -14,6 +23,7 @@ Option 2. $> javac *.java
    $> java studentMain -l student_data_csv.csv
 2. $> java studentMain -n -f -l student_data_csv.csv
 ```
+![run program](./how-to-compile/03-java-run.gif)
 
 ## Examples of output
 ```
