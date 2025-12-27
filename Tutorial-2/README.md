@@ -3,10 +3,10 @@
 
 ### First CD or open your folder to prepare to run on your terminal
 - Using command "cd"
-![compile](./how-to-compile/01_CD-directory.gif)
+![cd to program](./how-to-compile/01_CD-directory.gif)
 
 - Open folder via VSCode
-![compile](./how-to-compile/01-2_cd-open-folder.gif)
+![open folder](./how-to-compile/01-2_cd-open-folder.gif)
 
 ### How to compile my program
 ```
