@@ -53,17 +53,23 @@ public class T1_Puri_682115036 {
         // Sort the sums array to get top/bottom
         Arrays.sort(sums);
 
-        // Display top 5 sums
+        // Sum of top 5 sums
         System.out.println("Top 5 sums (highest): ");
+        double topSum = 0;
         for (int i = rowsRead - 1; i >= Math.max(0, rowsRead - 5); i--) {
+            topSum += sums[i];
             System.out.println(sums[i]);
         }
+        System.out.println("Total of top 5: " + topSum);
         System.out.println("-----------------------------------");
-        // Display bottom 5 sums
+        // Sum of bottom 5 sums
         System.out.println("Bottom 5 sums (lowest): ");
+        double bottomSum = 0;
         for (int i = 0; i < 5 && i < rowsRead; i++) {
+            bottomSum += sums[i];
             System.out.println(sums[i]);
         }
+        System.out.println("Total of bottom 5: " + bottomSum);
         System.out.println("-----------------------------------");
         // T1_Puri_682115036.java
         System.out.println("T1_Puri_682115036.java");
